@@ -11,7 +11,7 @@ public class class1 {
         while (cont != 'E') {
             System.out.println("Enter your first number: ");
             num1 = scanner.nextInt();
-            System.out.println("Enter your secound number: ");
+            System.out.println("Enter your secound number: ");// second
             num2 = scanner.nextInt();
 
             System.out.print("Enter an operator (+, -, *, /):  OR for exit just press E Button");
