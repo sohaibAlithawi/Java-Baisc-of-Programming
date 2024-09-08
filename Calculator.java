@@ -9,7 +9,7 @@ public class Calculator {
 
         switch (choice) {
             case 1:
-
+            // 1: Addition of two numbers
             System.out.println("Enter your first number: ");
             num1 = scanner.nextInt();
             System.out.println("Enter your secound number: ");
@@ -18,6 +18,7 @@ public class Calculator {
             System.out.println("The result is: " + result);
             break;
 
+                // 2: Subtraction of two numbers
             case 2:
                 System.out.println("Enter your first number: ");
                 num1 = scanner.nextInt();
@@ -27,6 +28,7 @@ public class Calculator {
                 System.out.println("The result is: " + result);
                 break;
 
+                // 3: Multiplication of two numbers
             case 3:
                 System.out.println("Enter your first number: ");
                 num1 = scanner.nextInt();
@@ -36,6 +38,7 @@ public class Calculator {
                 System.out.println("The result is: " + result);
                 break;
 
+                // 4: Division of two numbers
             case 4:
                 System.out.println("Enter your first number: ");
                 num1 = scanner.nextInt();
@@ -45,8 +48,8 @@ public class Calculator {
                 System.out.println("The result is: " + result);
                 break;
 
+                // 5: Exit The Applaction:
             case 5:
-
                 break;
 
             default:
