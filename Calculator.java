@@ -73,6 +73,8 @@ public class Calculator {
 
             Calculation(scanner, num1, num2, result, choice);
 
+                
+
         } while (choice != 5);
 
     }
