@@ -5,7 +5,7 @@ public class Calculator {
 
     public static void Calculation(Scanner scanner, int num1, int num2, int result,int choice){
 
-       
+       //this place is a method taking parameters from main
 
         switch (choice) {
             case 1:
